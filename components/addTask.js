@@ -38,7 +38,7 @@ export const addTask = (evento) => {
   displayTasks();
 };
 
-export const createTask = ({ value, dateFormat, complete, id }) => {
+export const createTask = ({ value, complete, id }) => {
   const task = document.createElement('li');
   task.classList.add('card');
 
